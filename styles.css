@@ -189,6 +189,9 @@ header h1 {
   max-width: 600px;
   border: 2px solid red;
   box-shadow: 0 0 20px rgba(255,0,0,0.3);
+  position: relative; /* Para posicionar el botón Cerrar */
+  max-height: 80vh; /* Limita la altura al 80% de la ventana */
+  overflow-y: auto; /* Habilita desplazamiento vertical si es necesario */
 }
 
 .modal-content h3, .yape-content h3 {
@@ -289,7 +292,7 @@ header h1 {
 }
 
 .btn-close {
-  margin-top: 1.5rem;
+  margin-top: 1rem;
   background: #333;
   border: none;
   padding: 0.8rem 1.5rem;
@@ -298,10 +301,14 @@ header h1 {
   cursor: pointer;
   transition: all 0.3s;
   font-weight: bold;
+  width: 100%; /* Ocupa el ancho completo */
+  position: sticky; /* Fija el botón en la parte inferior del contenido */
+  bottom: 0; /* Lo ancla abajo */
+  background: #555; /* Diferencia visual */
 }
 
 .btn-close:hover {
-  background: #555;
+  background: #777;
 }
 
 .qr-yape img {
@@ -388,8 +395,8 @@ header h1 {
 .yape-buttons {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 1rem;
-  margin-top: 1.5rem;
+  gap: 0.5rem;
+  margin-top: 1rem;
 }
 
 .yape-buttons .btn-download {
@@ -399,6 +406,7 @@ header h1 {
 
 .yape-buttons .btn-enviar {
   grid-column: span 2;
+  margin-top: 0.5rem;
 }
 
 .faqs {
@@ -554,5 +562,111 @@ header h1 {
   .btn-comprar {
     padding: 0.3rem;
     font-size: 0.7rem;
+  }
+}
+/* Nuevo ajuste para header en pantallas pequeñas */
+@media (max-width: 360px) {
+  header {
+    flex-direction: column; /* Apila el título y el botón verticalmente */
+    padding: 0.5rem 1rem; /* Reduce el padding */
+    text-align: center; /* Centra el contenido */
+  }
+
+  header h1 {
+    font-size: 1.5rem; /* Reduce el tamaño del título */
+    margin-bottom: 0.5rem; /* Espacio debajo del título */
+  }
+
+  .btn-contacto {
+    width: 100%; /* Hace que el botón ocupe el ancho completo */
+    padding: 0.5rem; /* Reduce el padding del botón */
+    font-size: 0.9rem; /* Reduce el tamaño del texto */
+  }
+}
+@media (max-width: 240px) {
+  .productos {
+    grid-template-columns: repeat(1, 1fr); /* Cambia a 1 columna si el ancho es demasiado pequeño */
+    gap: 0.4rem;
+  }
+
+  .producto {
+    padding: 0.3rem;
+  }
+
+  .producto img {
+    max-height: 70px;
+  }
+
+  .producto h3 {
+    font-size: 0.7rem;
+  }
+
+  .precio {
+    font-size: 0.8rem;
+  }
+
+  .btn-comprar {
+    padding: 0.2rem;
+    font-size: 0.6rem;
+  }
+}
+/* Ajustes responsivos para pantallas pequeñas */
+@media (max-width: 360px) {
+  .modal-content {
+    padding: 1rem; /* Reduce aún más el padding */
+    max-width: 100%; /* Ocupa todo el ancho disponible */
+    width: 95%; /* Ajuste fino */
+  }
+
+  .modal-content h3 {
+    font-size: 1.2rem; /* Reduce tamaño del título */
+  }
+
+  .modal-img-container img {
+    max-height: 120px; /* Reduce altura de la imagen */
+  }
+
+  .modal-img-section .precio {
+    font-size: 1.2rem; /* Reduce tamaño del precio */
+  }
+
+  .modal-details ul li {
+    font-size: 0.8rem; /* Reduce tamaño del texto */
+    padding-left: 1.2rem; /* Ajusta espacio para íconos */
+  }
+
+  .modal-grid-container {
+    grid-template-columns: 1fr; /* Cambia a una sola columna en pantallas muy pequeñas */
+    gap: 0.5rem;
+  }
+}
+/* Ajustes responsivos para pantallas pequeñas */
+@media (max-width: 360px) {
+  .yape-content {
+    padding: 1rem;
+    max-width: 100%;
+    width: 95%;
+    max-height: 75vh; /* Reduce la altura máxima en pantallas muy pequeñas */
+  }
+
+  .yape-content h3 {
+    font-size: 1.2rem;
+  }
+
+  .qr-yape img {
+    max-width: 150px; /* Reduce aún más el QR */
+  }
+
+  .yape-info p {
+    font-size: 0.9rem;
+  }
+
+  #yape-number {
+    font-size: 1rem;
+  }
+
+  .btn-close {
+    padding: 0.6rem 1rem;
+    font-size: 0.9rem;
   }
 }
