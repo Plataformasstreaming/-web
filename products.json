@@ -1,0 +1,200 @@
+[
+  {
+    "title": "NETFLIX",
+    "subtitle": "PLAN PREMIUM",
+    "price": "S/ 10.00",
+    "image": "productos/NETFLIX_PERFIL.png",
+    "description": "INCLUYE:\n✔️ PLAN PREMIUM\n✔️ 1 PERFIL\n✔️ DISFRUTA POR 30 DIAS\n\nSE ENTREGA:\n🖥️ CORREO\n🔐 PASSWORD"
+  },
+  {
+    "title": "DISNEY+",
+    "subtitle": "PLAN PREMIUM",
+    "price": "S/ 10.00",
+    "image": "productos/DISNEY_PERFIL.png",
+"description": "INCLUYE:\n✔️ PLAN PREMIUM\n✔️ 1 PERFIL\n✔️ DISFRUTA POR30 DIAS\n\nSE ENTREGA:\n🖥️ CORREO\n🔐 PASSWORD"
+  },
+    {
+    "title": "PRIME VIDEO",
+    "subtitle": "PLAN PREMIUM",
+    "price": "S/ 10.00",
+    "image": "productos/PRIME_VIDEO_PERFIL.png",
+   "description": "INCLUYE:\n✔️ PLAN PREMIUM\n✔️ 1 PERFIL\n✔️ DISFRUTA POR 30 DIAS\n\nSE ENTREGA:\n🖥️ CORREO\n🔐 PASSWORD"
+  },
+{
+  "title": "MAX",
+  "subtitle": "PLAN PLATINO",
+  "price": "S/ 10.00",
+  "image": "productos/MAX_PERFIL.png",
+  "description": "INCLUYE:\n✔️ PLAN PLATINO\n✔️ 1 PERFIL\n✔️ DISFRUTA POR 30 DIAS\n\nSE ENTREGA:\n🖥️ CORREO\n🔐 PASSWORD"
+},
+
+
+{
+  "title": "CRUNCHYROLL",
+  "subtitle": "PLAN MEGA FAN",
+  "price": "S/ 10.00",
+  "image": "productos/CRUNCHYROLL_PERFIL.png",
+  "description": "INCLUYE:\n✔️ PLAN MEGA FAN\n✔️ 1 PERFIL\n✔️ DISFRUTA POR 30 DIAS\n\nSE ENTREGA:\n🖥️ CORREO\n🔐 PASSWORD"
+},
+{
+  "title": "PARAMOUNT+",
+  "subtitle": "PLAN PREMIUM",
+  "price": "S/ 10.00",
+  "image": "productos/PARAMOUNT_PERFIL.png",
+  "description": "INCLUYE:\n✔️ PLAN PREMIUM\n✔️ 1 PERFIL\n✔️ DISFRUTA POR 30 DIAS\n\nSE ENTREGA:\n🖥️ CORREO\n🔐 PASSWORD"
+},
+{
+  "title": "APPLE TV+",
+  "subtitle": "PLAN PREMIUM",
+  "price": "S/ 25.00",
+  "image": "productos/appletv.png",
+  "description": "INCLUYE:\n✔️ PLAN PREMIUM\n✔️ FULL ULTRA HD\n✔️ 4 DISPOSITIVOS\n✔️ DISFRUTA POR 60 DIAS\n✔️LA ACTIVACION TOMA SU TIEMPO\n\nSE ENTREGA:\n🖥️ CORREO\n🔐 PASSWORD"
+},
+{
+  "title": "VIX",
+  "subtitle": "PLAN PREMIUM",
+  "price": "S/ 8.00",
+  "image": "productos/vix_perfil.png",
+  "description": "INCLUYE:\n✔️ PLAN PREMIUM\n✔️ 1 PERFIL\n✔️ DISFRUTA POR 30 DIAS\n\nSE ENTREGA:\n🖥️ CORREO\n🔐 PASSWORD"
+},
+ {
+    "title": "SPOTIFY",
+    "subtitle": "PLAN PREMIUM",
+    "price": "S/ 13.00",
+    "image": "PRODUCTOS/SPOTIFY_INDIVIDUAL.png",
+    "description": "INCLUYE:\n✔️ ACCESO PREMIUM\n✔️ DISFRUTA POR 30 DIAS\n✔️ MODO OFFLINE\n✔️ DESCARGA TU MUSICA FAVORITA\n\nSE ENTREGA:\n🖥️ CORREO\n🔐 PASSWORD"
+  },
+   {
+    "title": "DEEZER",
+    "subtitle": "PLAN PREMIUM",
+    "price": "S/ 10.00",
+    "image": "PRODUCTOS/DEEZER_PERFIL.png",
+    "description": "INCLUYE:\n✔️ ACCESO PREMIUM\n✔️ DISFRUTA POR 30 DIAS\n✔️ MODO OFFLINE\n✔️ DESCARGA TU MUSICA FAVORITA\n\nSE ENTREGA:\n🖥️ CORREO\n🔐 PASSWORD"
+  },
+   {
+    "title": "APPLE MUSIC",
+    "subtitle": "PLAN PREMIUM",
+    "price": "S/ 35.00",
+    "image": "PRODUCTOS/appemusic_perfil.png",
+    "description": "INCLUYE:\n✔️ ACCESO PREMIUM\n✔️ SOLO ANDROIT\n✔️ DISFRUTA POR 90 DIAS\n✔️ MODO OFFLINE\n✔️LA ACTIVACION TOMA SU TIEMPO\n\nSE ENTREGA:\n🖥️ CORREO\n🔐 PASSWORD"
+  },
+     {
+    "title": "TIDAL",
+    "subtitle": "PLAN PREMIUM",
+    "price": "S/ 10.00",
+    "image": "PRODUCTOS/tidal_perfil.png",
+    "description": "INCLUYE:\n✔️ ACCESO PREMIUM\n✔️ DISFRUTA POR 30 DIAS\n✔️ MODO OFFLINE\n✔️LA ACTIVACION TOMA SU TIEMPO\n\nSE ENTREGA:\n🖥️ CORREO\n🔐 PASSWORD"
+  },
+    {
+    "title": "YOUTUBE PREMIUM",
+    "subtitle": "PLAN PREMIUM",
+    "price": "S/ 10.00",
+    "image": "PRODUCTOS/YOUTUBE_INDIVIDUAL.png",
+    "description": "INCLUYE:\n✔️ ACCESO PREMIUM\n✔️ YOUTUBE MUSIC INCLUIDA\n✔️ DISFRUTA POR 30 DIAS\n✔️LA ACTIVACION TOMA SU TIEMPO\n\nSE ENTREGA:\n🖥️ CORREO\n🔐 PASSWORD"
+  },
+{
+  "title": "CLARO VIDEO+LIGA1MAX",
+  "subtitle": "TV BASICA",
+  "price": "S/ 20.00",
+  "image": "productos/clarovideo_perfil.png",
+  "description": "INCLUYE:\n✔️ TV BASICA\n✔️ 1 PERFIL\n✔️ DISFRUTA POR 30 DIAS\n\nSE ENTREGA:\n🖥️ CORREO\n🔐 PASSWORD"
+},
+{
+  "title": "CLARO VIDEO+LIGA1MAX",
+  "subtitle": "TV BASICA",
+  "price": "S/ 35.00",
+  "image": "productos/CLARO COMPLETA.png",
+  "description": "INCLUYE:\n✔️ TV BASICA\n✔️ 5 PERFILES\n✔️ DISFRUTA POR 30 DIAS\n\nSE ENTREGA:\n🖥️ CORREO\n🔐 PASSWORD"
+},
+{
+  "title": "DIRECTV GO+LIGA1MAX",
+  "subtitle": "PLAN PREMIUM",
+  "price": "S/ 25.00",
+  "image": "productos/directvgo_perfil.png",
+  "description": "INCLUYE:\n✔️ PLAN PREMIUM\n✔️ ACTIVACION SOLO A TV\n✔️ DISFRUTA POR 30 DIAS"
+},
+{
+  "title": "WIN TV+LIGA1MAX",
+  "subtitle": "PLAN PREMIUM",
+  "price": "S/ 13.00",
+  "image": "productos/wintv_perfil.png",
+  "description": "INCLUYE:\n✔️ PLAN PREMIUM\n✔️ ACTIVACION SOLO A TV\n✔️ DISFRUTA POR 30 DIAS"
+},
+{
+  "title": "MOVISTAR PLAY+GOL PERU",
+  "subtitle": "PLAN PREMIUM",
+  "price": "S/ 13.00",
+  "image": "productos/movistarplay.png",
+  "description": "INCLUYE:\n✔️ PLAN PREMIUM\n✔️ ACTIVACION SOLO A TV\n✔️ DISFRUTA POR 30 DIAS"
+},
+{
+  "title": "L1MAX+GOL PERU",
+  "subtitle": "PLAN PREMIUM",
+  "price": "S/ 18.00",
+  "image": "productos/l1max.png",
+  "description": "INCLUYE:\n✔️ PLAN PREMIUM\n✔️ DISFRUTA POR 30 DIAS\n\nSE ENTREGA:\n🖥️ CORREO\n🔐 PASSWORD"
+},
+{
+  "title": "IPTV",
+"subtitle": "SMARTER PRO",
+  "price": "S/ 10.00",
+  "image": "productos/iptv.png",
+  "description": "INCLUYE:\n✔️ +4000 Canales\n✔️ 10 000 Peliculasy series\n✔️1 Dipositivox30 días\n\nSE ENTREGA:\n🖥️ USUARIO\n🔐 PASSWORD\n 🔗LINK"
+},
+{
+  "title": "RAUKUTEN VIKI",
+"subtitle": "VERSION PASS PLUSS",
+  "price": "S/ 8.00",
+  "image": "productos/rakutenviki.png",
+  "description": "INCLUYE:\n✔️ 1 DISPOSITIVO\n✔️ DISFRUTA POR 30 DIAS\n\nSE ENTREGA:\n🖥️ CORREO\n🔐 PASSWORD"
+},
+{
+  "title": "FLUJO TV(MAGISTV)",
+"subtitle": "PLAN PREMIUM",
+  "price": "S/ 12.00",
+  "image": "productos/flujotv.png",
+  "description": "INCLUYE:\n✔️PLAN PREMIUM\n✔️ 1 DISPOSITIVO\n✔️ DISFRUTA POR 30 DIAS\n\nSE ENTREGA:\n🖥️ CORREO\n🔐 PASSWORD"
+},
+{
+  "title": "CHAT GPT PLUS",
+"subtitle": "PLAN PLUS",
+  "price": "S/ 20.00",
+  "image": "productos/chatgptplus.png",
+  "description": "INCLUYE:\n✔️CUENTA COMPARTIDA\n✔️ 1 DISPOSITIVO\n✔️ DISFRUTA POR 30 DIAS\n✔️ SE ACTIVA CON CODIGO\n\nSE ENTREGA:\n🖥️ CORREO\n🔐 PASSWORD"
+},
+{
+  "title": "CHAT GPT PLUS",
+"subtitle": "A SU CORREO",
+  "price": "S/ 28.00",
+  "image": "productos/chatgptplus.png",
+  "description": "INCLUYE:\n✔️PLAN PLUS\n✔️ 1 DISPOSITIVO\n✔️ DISFRUTA POR 30 DIAS\n✔️ MANTEN TU  HISTORIAL SEGURO\n✔️ INVITACION A SU CORREO"
+},
+{
+  "title": "DUOLINGO",
+"subtitle": "PLAN PREMIUN",
+  "price": "S/ 10.00",
+  "image": "productos/duolingoperfil.png",
+  "description": "INCLUYE:\n✔️PLAN PREMIUN\n✔️ 1 PERFIL\n✔️ DISFRUTA POR 30 DIAS\n\nSE ENTREGA:\n🖥️ CORREO\n🔐 PASSWORD"
+},
+{
+  "title": "CAMVA PRO EDU",
+"subtitle": "PLAN PREMIUN",
+  "price": "S/ 10.00",
+  "image": "productos/camvapro.png",
+  "description": "INCLUYE:\n✔️PLAN PREMIUN\n✔️ DISFRUTA POR 30 DIAS\n✔️ ACTIVACION A CORREO"
+},
+{
+  "title": "BUSQUEDA PERSONAS",
+"subtitle": "DOXEO",
+  "price": "S/ 15.00",
+  "image": "productos/busqueda.png",
+  "description": "INCLUYE:\n✔️C4 Azul, C4 Blanco\n✔️ DNI virtual Azul y Amarillo\n✔️ Actas: Nacimiento, Matrimonio, Defunción\n✔️Titularidad de Líneas Telefónicas\n✔️Todo esto y mucho mas, consultar detalles\n\nSE ENTREGA:\n🖥️ TODOS ESOS DATOS EN PDF Y JPEG"
+},
+{
+  "title": "SEGUIDORES,LIKES...",
+"subtitle": "PARA REDES SOCIALES",
+  "price": "S/ 20.00",
+  "image": "productos/seguidores.png",
+  "description": "INCLUYE:\n✔️PRECIO VARIABLE\n✔️ FACEBOOK: 1K SEGUIDORES O 1K ME GUSTA + 10K VISTAS VIDEO + 10K VISTAS REELS\n✔️ TIKTOK: 1K SEGUIDORES + 100K VISTAS + 1K ME GUSTA\n✔️Y MUCHO MAS CONSULTAR\n\nSE ENTREGA:\n🖥️ CORREO\n🔐 PASSWORD"
+}
+]

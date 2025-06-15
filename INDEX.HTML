@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+     <html lang="es">
+     <head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <meta name="description" content="Compra suscripciones a plataformas de streaming como Netflix y YouTube Premium a precios accesibles. Activa tu servicio en minutos con Yape.">
+       <meta name="keywords" content="streaming, suscripciones, Netflix, YouTube Premium, Yape, Perú">
+       <meta name="robots" content="index, follow">
+       <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' https://*.example.com; script-src 'self' https://www.googletagmanager.com 'unsafe-eval'; style-src 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; connect-src 'self' https://api.exchangerate-api.com;">
+       <link rel="preload" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" as="style">
+       <link rel="preload" href="STYLES.CSS" as="style">
+       <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+       <link rel="stylesheet" href="STYLES.CSS">
+       <title>STREAMING_NY</title>
+       <script async src="https://www.googletagmanager.com/gtag/js?id=G-VC2LSPRXQZ"></script>
+       <script src="ga.js"></script>
+     </head>
+     <body>
+  <header>
+   <h1>STREAMING_NY</h1>
+<a href="https://wa.me/51950441700?text=Hola,%20vengo%20de%20tu%20página,%20quiero%20más%20información%20de" target="_blank">
+  <button class="btn-contacto">CONTACTANOS</button>
+</a>
+
+  </header>
+
+  <section class="tienda">
+    <h2>Nuestra Tienda</h2>
+    <div class="sort">
+      <label for="sort-options">Ordenar por:</label>
+      <select id="sort-options">
+        <option value="name-asc">Nombre (A-Z)</option>
+        <option value="name-desc">Nombre (Z-A)</option>
+        <option value="price-asc">Precio (Menor a Mayor)</option>
+        <option value="price-desc">Precio (Mayor a Menor)</option>
+      </select>
+    </div>
+    <div class="currency">
+      <label for="currency-select">Moneda:</label>
+      <select id="currency-select">
+        <option value="PEN">S/ (PEN)</option>
+        <option value="USD">$ (USD)</option>
+      </select>
+    </div>
+    <div class="buscar">
+      <input type="text" placeholder="Buscar producto..." id="search-input">
+    </div>
+    <div class="productos"></div>
+  </section>
+
+  <div class="modal" id="modal" role="dialog" aria-labelledby="modal-titulo" aria-hidden="true">
+    <div class="modal-content">
+      <h3 id="modal-titulo"></h3>
+      <div class="modal-grid-container">
+        <div class="modal-img-section">
+          <div class="modal-img-container">
+            <img id="modal-imagen" src="" alt="Producto seleccionado">
+          </div>
+          <p class="precio" id="modal-precio"></p>
+        </div>
+        <div class="modal-details">
+          <ul id="modal-descripcion-lista"></ul>
+        </div>
+      </div>
+      <div class="modal-actions">
+        <button class="btn-comprar open-yape">Pagar con Yape</button>
+        <button class="btn-close">Cerrar</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="yape-modal" id="yape" role="dialog" aria-labelledby="yape-titulo" aria-hidden="true">
+    <div class="yape-content">
+      <h3 id="yape-titulo">Pagar con Yape</h3>
+      <div class="qr-yape">
+        <img src="IMAGES/QRYAPE.jpeg" alt="Código QR para pago con Yape">
+      </div>
+      <div class="yape-info">
+        <p>Número Yape: <span id="yape-number">950441700</span></p>
+        <div class="spinner" id="copy-spinner"></div>
+        <div class="yape-buttons">
+          <button class="btn-copy">Copiar número</button>
+          <a class="btn-download" href="IMAGES/QRYAPE.jpeg" download>Descargar QR</a>
+          <button class="btn-enviar" id="sendReceipt">Enviar Comprobante</button>
+        </div>
+      </div>
+      <button class="btn-close">Cerrar</button>
+    </div>
+  </div>
+
+  <div id="toast"></div>
+
+  <section class="faqs">
+    <h2>Preguntas Frecuentes</h2>
+    <div class="faq-question" role="button" aria-expanded="false" aria-controls="faq-answer-1">
+      ¿En qué tiempo se entrega el servicio después de realizar la compra?
+    </div>
+    <div class="faq-answer" id="faq-answer-1">
+      Una vez confirmado tu pago, activamos tu servicio en un tiempo promedio de 1 a 5 minutos. En casos especiales bajo pedido, la activación puede demorar hasta 2 horas. Siempre te notificaremos por WhatsApp apenas esté todo listo.
+    </div>
+    <div class="faq-question" role="button" aria-expanded="false" aria-controls="faq-answer-2">
+      ¿En qué dispositivos puedo usar la plataforma?
+    </div>
+    <div class="faq-answer" id="faq-answer-2">
+      Nuestras plataformas son compatibles con Smart TVs, dispositivos Android, iOS, computadoras y cajas de streaming como Fire Stick o Roku. Solo necesitas conexión a internet para disfrutar del contenido.
+    </div>
+    <div class="faq-question" role="button" aria-expanded="false" aria-controls="faq-answer-3">
+      ¿Es necesario pagar algún costo adicional después de la compra?
+    </div>
+    <div class="faq-answer" id="faq-answer-3">
+      No. Al comprar tu suscripción, obtienes acceso completo durante el tiempo contratado, sin costos ocultos ni cobros extra. El precio que ves es el precio final.
+    </div>
+    <div class="faq-question" role="button" aria-expanded="false" aria-controls="faq-answer-4">
+      ¿Qué tipo de soporte técnico ofrecen?
+    </div>
+    <div class="faq-answer" id="faq-answer-4">
+      Nuestro equipo de atención está disponible todos los días desde las 8:00 a.m. hasta las 10:00 p.m. para ayudarte cuando lo necesites. Puedes contactarnos fácilmente por WhatsApp, ya sea para resolver dudas técnicas, recibir asistencia con la instalación o activar tu servicio. Nos comprometemos a responderte rápidamente dentro de ese horario para garantizarte una experiencia sin complicaciones.
+    </div>
+    <div class="faq-question" role="button" aria-expanded="false" aria-controls="faq-answer-5">
+      ¿Qué garantía ofrecen sobre el servicio?
+    </div>
+    <div class="faq-answer" id="faq-answer-5">
+      En caso de que el servicio presente una caída técnica o interrupción inesperada, y no podamos resolverlo dentro de un plazo máximo de 24 horas desde que se reporta al soporte, podrás solicitar un reembolso proporcional por los días no utilizados. Nuestro objetivo es garantizarte estabilidad y respaldo, y por eso evaluamos cada situación individualmente para brindarte una solución justa y rápida
+    </div>
+    <div class="faq-question" role="button" aria-expanded="false" aria-controls="faq-answer-6">
+      ¿Cuáles son las opciones de pago disponibles para adquirir sus servicios?
+    </div>
+    <div class="faq-answer" id="faq-answer-6">
+      Puedes realizar tu pago de forma rápida y segura a través de Yape directamente desde nuestra página web.
+
+Si deseas usar otros métodos como Binance, transferencia bancaria a BCP o al Banco de la Nación, contáctanos por WhatsApp para recibir los datos y el procedimiento correspondiente. Estaremos encantados de ayudarte a elegir el método que más se adapte a ti.
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+  <script type="application/ld+json">
+  [
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "NETFLIX",
+      "image": "productos/NETFLIX_PERFIL.png",
+      "description": "Suscripción a Netflix Plan Premium en Full Ultra HD con acceso multi-dispositivo.",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "PEN",
+        "price": "10.00",
+        "availability": "https://schema.org/InStock"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "YouTube Premium + Music",
+      "image": "productos/NETFLIX_PERFIL.png",
+      "description": "Suscripción a YouTube Premium con Music, sin anuncios y con descarga offline.",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "PEN",
+        "price": "15.00",
+        "availability": "https://schema.org/InStock"
+      }
+    }
+  ]
+  </script>
+</body>
+</html>
